@@ -29,7 +29,7 @@ def list_appliance_devices():
 
 
     #keys to filter
-    list_keys = ['productType','model','name','mac','lanIp','publicIp','serial','statuses']
+    list_keys = ['productType','model','name','mac','lanIp','publicIp','serial','status']
     
     filter_dict = [{key:val for key, val in ele.items() if key in list_keys} for ele in jsontx]
     print("-----------------------------------------------------------------------")

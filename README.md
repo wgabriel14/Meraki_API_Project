@@ -20,19 +20,28 @@ Step-by-step description of how to get the development environment running:
 1. Clone this repository on your local workspace.
 2. Once you have cloned this repository, you have to install the necesary dependencies.
 To do this, run the following command using your terminal:
-
-"pip install -r requirements.txt"
-3. Use the organization script.
+            "pip install -r requirements.txt"
+3. Use one of the following scripts:
+    - organizations.py
+    - inventory.py
+    - wireless.py
+    - appliance.py
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+1. organizations.py: This script allows you to list the organizations that the user has privileges on (In this case we are using the public API key)
+2. inventory.py: This scripts allows you to generate an inventory of the DeLab's Organization devices (In case you want to consult another organization is necessary to modify the organization id in the API call url.)
+3. appliance.py: This scripts allows you to generate an inventory of the DeLab's Organization devices where productTypes = appliance (In case you want to consult another organization is necessary to modify the organization id in the API call url.)
+4. wireless.py: This scripts allows you to generate an inventory of the DeLab's Organization devices where productTypes = wireless (In case you want to consult another organization is necessary to modify the organization id in the API call url.)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Example: 
 
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![inventory.csv](assets/images/screenshot.png)
     ```
+    ```md
+    ![inventory.csv](assets/images/screenshot.png)
+    ```    
 
 ## Meraki API Documentation
 
