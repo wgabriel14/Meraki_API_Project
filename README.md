@@ -34,14 +34,17 @@ To do this, run the following command using your terminal:
 3. appliance.py: This scripts allows you to generate an inventory of the DeLab's Organization devices where productTypes = appliance (In case you want to consult another organization is necessary to modify the organization id in the API call url.)
 4. wireless.py: This scripts allows you to generate an inventory of the DeLab's Organization devices where productTypes = wireless (In case you want to consult another organization is necessary to modify the organization id in the API call url.)
 
-Example: 
 
-    ```md
-    ![inventory.csv](assets/images/inventorycsv.png)
-    ```
-    ```md
-    ![inventory.csv](assets/images/inventorycsvexcel.png)
-    ```    
+E.g. (Inventory.py)
+
+<p align="center">
+  <img alt="inventorycsv" src="https://github.com/wgabriel14/Meraki_API_Project/blob/main/assets/images/inventorycsv.PNG">
+</p>
+
+<p align="center">
+  <img alt="inventorycsv in excel" src="https://github.com/wgabriel14/Meraki_API_Project/blob/main/assets/images/inventorycsvexcel.PNG">
+</p>
+
 
 ## Meraki API Documentation
 
