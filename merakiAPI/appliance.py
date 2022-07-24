@@ -21,7 +21,9 @@ def list_appliance_devices():
     print("-----------------------------------------------------------------------")
  
     pp.pprint(response.json())
-
+    print("-----------------------------------------------------------------------")
+    print("Raise for status: ", response.raise_for_status())
+    print("-----------------------------------------------------------------------")
 
     jsontx = response.json()
 
