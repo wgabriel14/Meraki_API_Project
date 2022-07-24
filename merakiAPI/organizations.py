@@ -21,7 +21,9 @@ def list_organizations():
     }
 
     response = requests.request('GET', url, headers=headers, data = payload)
-
+    print("-----------------------------------------------------------------------")
+    print("Raise for status: ", response.raise_for_status())
+    print("-----------------------------------------------------------------------")
     pp.pprint(response.json())
 
 
