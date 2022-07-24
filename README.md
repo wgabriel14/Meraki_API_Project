@@ -37,10 +37,10 @@ To do this, run the following command using your terminal:
 Example: 
 
     ```md
-    ![inventory.csv](assets/images/screenshot.png)
+    ![inventory.csv](assets/images/inventorycsv.png)
     ```
     ```md
-    ![inventory.csv](assets/images/screenshot.png)
+    ![inventory.csv](assets/images/inventorycsvexcel.png)
     ```    
 
 ## Meraki API Documentation
