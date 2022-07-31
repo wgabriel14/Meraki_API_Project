@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  python:
+    image: docker_sdn
+    volumes:
+      - meraki_volume:/usr/src/app
+    build: .
+volumes:
+  meraki_volume:
