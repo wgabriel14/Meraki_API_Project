@@ -49,6 +49,9 @@ def inventory():
         path = 'inventory.csv'
         write_dicts_to_csv_fieldnames(filter_dict, path, list_keys)
 
+        t = time.localtime()
+        current_time = time.strftime("%H:%M:%S", t)
+        print("Última actualización:", current_time)
         time.sleep(300)
 
 
